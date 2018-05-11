@@ -449,7 +449,7 @@ function doit()
 					end
 					report = report .. "\n"
 					local delay = 100 + math.random(max_delay);
-					sleepWithStatus(delay, title .. ", Waiting before next query", 0xFFFFFFff, true);
+					sleepWithStatus(delay, title .. ", Waiting before next query", 0xFFFFFFff);
 				end
 			end
 		end
